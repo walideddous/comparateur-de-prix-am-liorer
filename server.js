@@ -13,7 +13,9 @@ require("./startup/db")();
 
 const port = process.env.PORT || 5000;
 //process.env.PORT when we deploye on Horukou we chose the PORT
-app.listen(port, err => {
+const server = app.listen(port, err => {
   if (err) console.log("Server failed to running");
   console.log(`Server is runing on port ${port}`);
 });
+
+module.exports = server;

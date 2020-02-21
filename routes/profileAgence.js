@@ -26,7 +26,7 @@ router.get("/me", auth, async (req, res) => {
 // @route Get /api/profile_agence
 // @desc get the currents cars
 // @ express Privat
-router.get("/:id", auth, async (req, res) => {
+router.get("/:id", auth, validateObjectId, async (req, res) => {
   const id = req.params.id;
   try {
     if (id) {
