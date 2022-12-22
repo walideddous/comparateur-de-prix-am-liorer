@@ -22,7 +22,7 @@
     "fawn": "^2.1.5",
     "gravatar": "^1.8.0",
     "joi": "^14.3.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "mongoose": "^5.8.9",
     "mpath": "^0.5.1",
